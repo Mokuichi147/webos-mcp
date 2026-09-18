@@ -1,0 +1,46 @@
+{
+  "name": "@mokuichi/webos-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for controlling LG webOS TVs (SSAP)",
+  "type": "module",
+  "bin": {
+    "webos-mcp": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && chmod +x dist/cli.js",
+    "dev": "tsc -p tsconfig.json --watch",
+    "start": "node dist/cli.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "webos",
+    "lg",
+    "tv",
+    "ssap"
+  ],
+  "author": "mokuichi147",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "ws": "^8.21.3",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/ws": "^8",
+    "prettier": "^3.9.8",
+    "typescript": "^5"
+  }
+}
