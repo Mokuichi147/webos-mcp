@@ -1,4 +1,4 @@
-# @mokuichi/webos-mcp
+# @mokuichi147/webos-mcp
 
 LG webOS TV を操作する MCP (Model Context Protocol) サーバーです。
 SSAP (Second Screen Application Protocol) で TV と直接通信するため、TV 側への追加インストールは不要です。
@@ -19,7 +19,7 @@ Claude Desktop / Claude Code などの設定に追加します。
   "mcpServers": {
     "webos": {
       "command": "npx",
-      "args": ["-y", "@mokuichi/webos-mcp"]
+      "args": ["-y", "@mokuichi147/webos-mcp"]
     }
   }
 }
@@ -35,11 +35,11 @@ MCP クライアントから次の順で呼びます。
 CLI から事前にペアリングしておくこともできます。
 
 ```bash
-npx -y @mokuichi/webos-mcp discover
+npx -y @mokuichi147/webos-mcp discover
 ```
 
 ```bash
-npx -y @mokuichi/webos-mcp pair 192.168.1.20 --name living-room
+npx -y @mokuichi147/webos-mcp pair 192.168.1.20 --name living-room
 ```
 
 以降は `launch_app` などのツールをそのまま呼べます。

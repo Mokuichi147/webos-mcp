@@ -1,5 +1,5 @@
 {
-  "name": "@mokuichi/webos-mcp",
+  "name": "@mokuichi147/webos-mcp",
   "version": "0.1.0",
   "description": "MCP server for controlling LG webOS TVs (SSAP)",
   "type": "module",
