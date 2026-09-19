@@ -29,6 +29,14 @@
   ],
   "author": "mokuichi147",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mokuichi147/webos-mcp.git"
+  },
+  "homepage": "https://github.com/Mokuichi147/webos-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/Mokuichi147/webos-mcp/issues"
+  },
   "engines": {
     "node": ">=18"
   },
