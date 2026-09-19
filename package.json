@@ -4,7 +4,7 @@
   "description": "MCP server for controlling LG webOS TVs (SSAP)",
   "type": "module",
   "bin": {
-    "webos-mcp": "./dist/cli.js"
+    "webos-mcp": "dist/cli.js"
   },
   "main": "./dist/index.js",
   "files": [
